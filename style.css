@@ -1,0 +1,74 @@
+/* Reseta o estilo padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #007bff;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Conteúdo Principal */
+main {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info {
+    max-width: 800px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.info h2 {
+    margin-bottom: 10px;
+    color: #007bff;
+}
+
+/* Container do Mapa */
+.map-container {
+    width: 100%;
+    max-width: 800px;
+    text-align: center;
+}
+
+#map {
+    height: 500px;
+    width: 100%;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+/* Rodapé */
+footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+    font-size: 0.9em;
+    color: #555;
+}
+
+footer p {
+    margin: 5px 0;
+}

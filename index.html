@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa de Localização</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Barra de navegação -->
+    <header>
+        <nav>
+            <h1>Localização do Computador</h1>
+        </nav>
+    </header>
+
+    <!-- Conteúdo principal -->
+    <main>
+        <section class="info">
+            <h2>Informações de Localização</h2>
+            <p>Exibindo a localização do "Computador Teste 1" com base nas coordenadas salvas.</p>
+        </section>
+
+        <section class="map-container">
+            <h2>Mapa de Localização</h2>
+            <div id="map"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Projeto de Geolocalização - Exemplo com Go e Leaflet</p>
+        <p>&copy; 2023 Seu Nome</p>
+    </footer>
+
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="mapa.js"></script>
+</body>
+
+</html>
